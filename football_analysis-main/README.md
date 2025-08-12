@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I started this project since I am interested in sports analytics and its practicality in generating real-time, data-driven insights that can enhance performance evaluation, strategy development, and fan engagement.
+I started this project since I am interested in sports analytics and its practicality in generating real-time, data-driven insights that can enhance performance evaluation, strategy development, and fan engagement. For this project, it was essential to differentiate between players, referees, goalkeepers, and the ball itself. For this, YOLO was the best option for an object detection model. To assign players to teams, I checked the colors of their t shirts using Kmeans which uses pixel segmentation and clustering. With this information, we can deduce the possession time for each team, which is valuable information in telling how a game of football is played out.
 
 
 ![Screenshot](output_videos/screenshot.png)
@@ -14,19 +14,3 @@ The following modules are used in this project:
 - Optical Flow: Measure camera movement
 - Perspective Transformation: Represent scene depth and perspective
 - Speed and distance calculation per player
-
-## Trained Models
-- [Trained Yolo v5](https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view?usp=sharing)
-
-## Sample video
--  [Sample input video](https://drive.google.com/file/d/1t6agoqggZKx6thamUuPAIdN_1zR9v9S_/view?usp=sharing)
-
-## Requirements
-To run this project, you need to have the following requirements installed:
-- Python 3.x
-- ultralytics
-- supervision
-- OpenCV
-- NumPy
-- Matplotlib
-- Pandas
